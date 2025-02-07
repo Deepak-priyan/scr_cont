@@ -138,26 +138,30 @@ body{
             font-size: 0.8rem;
         }
         .control{
-            height: 6vh;
+            height: 3vh;
+            border-radius: 4px;
         }
         .logoimg{
-            height: 20vh;
-            border-radius: 15px;
+            height: 17vh;
+            border-radius: 10px;
             position: absolute;
             left: 10%;
+            top:6%;
+            border: white solid 1.5px;
          }
          .rectangle-1
          {
             width: 70%;
-            left: 20%;
-            top:23%;
-            height: 100vh;
-            border-radius: 40px;
+            left: 18%;
+            top:13%;
+            height: 70vh;
+            border-radius: 30px;
          }
          .Headcount
          {
-            font-size:1rem ;
-            top:5%
+            font-size:0.7rem ;
+            top:2%;
+            left:40%;
          }
          .stu_list{
             top:15%;
@@ -165,10 +169,11 @@ body{
          }
          .li>p{
             font-size: 1rem;
+            border:black solid 1px;
             
          }
 }
-@media(max-width:330px)
+@media(max-width:440px)
 {
       body{
        
@@ -185,30 +190,30 @@ body{
             
         }
         .control{
-            height: 4vh;
-            border-radius: 6px;
+            height: 3vh;
+            border-radius: 4px;
         }
         .logoimg{
             height: 17vh;
             border-radius: 10px;
             position: absolute;
             left: 10%;
-            top:8%;
+            top:6%;
             border: white solid 1.5px;
          }
          .rectangle-1
          {
             width: 70%;
-            left: 20%;
-            top:15%;
+            left: 18%;
+            top:13%;
             height: 70vh;
             border-radius: 30px;
          }
          .Headcount
          {
-            font-size:1rem ;
+            font-size:0.7rem ;
             top:2%;
-            left:32%;
+            left:40%;
          }
          .stu_list{
             top:17%;
