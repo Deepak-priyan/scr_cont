@@ -1,0 +1,223 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(269.19deg, #035d6b 7.48%, #2790b3 40.32%, #BFDFEB 92.56%);
+    
+}
+.controls{
+    display: grid;
+    grid-template-columns: 15% 20% 15%;
+    gap: 2rem;
+   
+    width:100%;
+    justify-content: center;
+    margin-top: 1%;
+}
+.control{
+    
+    height: 8vh;
+    text-align: center;
+    border-radius: 10px;
+    color: #BEEEF6;
+   
+    border:white solid 1px;
+}
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.st{
+    background: linear-gradient(95.25deg, #13A51F 16.14%, #18EA29 48.75%, #59DF65 79.44%);
+   
+}
+.qcode{
+    background: linear-gradient(93.41deg, #402EC7 31.66%, #5145AD 58.6%, #9289D7 91.75%);
+}
+.ed{
+    background: linear-gradient(90.35deg, #f02828 13.55%, #ef3a3a 43.16%, #d86767 70.03%, #FC6262 82.53%, #E58E8E 96.5%);
+
+}
+.logoimg{
+    height:40vh;
+    position:absolute;
+    top:15%;
+    left:20%;
+    border-radius: 25px;
+    border: white solid 3px;
+}
+.rectangle-1 {
+    
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 55px;
+    width:45%;
+    height: 200vh;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    box-shadow: inset -13.85px 13.85px 13.85px 0px rgba(174, 174, 174, 0.4),
+      inset -6.93px 6.93px 6.93px 0px rgba(255, 255, 255, 0.4),
+      inset 13.85px -13.85px 13.85px 0px rgba(255, 255, 255, 0.4),
+      inset 6.93px -6.93px 6.93px 0px rgba(174, 174, 174, 0.4);
+    backdrop-filter: blur(500.63px)
+
+  }
+  
+  .Headcount{
+    position: absolute;
+    left:36%;
+    top:5%;
+    font-size: 2rem;
+    color:white ;
+    text-decoration:underline;
+    text-decoration-color: whitesmoke;
+  }
+.stu_list{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:15%;
+    left:10%;
+    width: 80%;
+
+
+}
+.li>p{
+    margin: 0%;
+    font-size:2rem;
+    color:black;
+    border: black solid 1.5px;
+    text-align: center;
+   
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+.seri_no{
+    width:14%
+}
+.reg_no{
+    width: 86%;
+}
+@media(max-width:870px)
+{
+    .stu_list{
+        position:absolute;
+        top:17%;
+    }
+    
+    .li>p,.Headcount{
+        font-size: 1.5rem;
+    }
+    .logoimg{
+        height: 35vh;
+    }
+    .rectangle-1
+    {
+        width: 55%;
+    }
+}
+@media(max-width:640px)
+{
+    body{
+       
+        background: linear-gradient(188.24deg, #0D6F7E 23.67%, #139EB9 38.27%, #BFDFEB 87.8%);
+        background-repeat:no-repeat;
+       background-position: center;
+       background-attachment: fixed;
+       background-size: cover;
+       margin: 0%;
+       }
+
+        .op{
+            font-size: 0.8rem;
+        }
+        .control{
+            height: 6vh;
+        }
+        .logoimg{
+            height: 20vh;
+            border-radius: 15px;
+            position: absolute;
+            left: 10%;
+         }
+         .rectangle-1
+         {
+            width: 70%;
+            left: 20%;
+            top:23%;
+            height: 100vh;
+            border-radius: 40px;
+         }
+         .Headcount
+         {
+            font-size:1rem ;
+            top:5%
+         }
+         .stu_list{
+            top:15%;
+            
+         }
+         .li>p{
+            font-size: 1rem;
+            
+         }
+}
+@media(max-width:330px)
+{
+      body{
+       
+        background: linear-gradient(188.24deg, #0D6F7E 23.67%, #139EB9 38.27%, #BFDFEB 87.8%);
+        background-repeat:no-repeat;
+       background-position: center;
+       background-attachment: fixed;
+       background-size: cover;
+       margin: 0%;
+       }
+        .op{
+            margin-top: 5%;
+            font-size: 0.5rem;
+            
+        }
+        .control{
+            height: 4vh;
+            border-radius: 6px;
+        }
+        .logoimg{
+            height: 17vh;
+            border-radius: 10px;
+            position: absolute;
+            left: 10%;
+            top:8%;
+            border: white solid 1.5px;
+         }
+         .rectangle-1
+         {
+            width: 70%;
+            left: 20%;
+            top:15%;
+            height: 70vh;
+            border-radius: 30px;
+         }
+         .Headcount
+         {
+            font-size:1rem ;
+            top:2%;
+            left:32%;
+         }
+         .stu_list{
+            top:17%;
+            
+         }
+         .li>p{
+            font-size: 0.5rem;
+            border: black solid 0.5px;
+         }
+}
+
+
