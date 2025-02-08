@@ -11,7 +11,8 @@ body{
    
     width:100%;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 3%;
+    
 }
 .control{
     
@@ -43,7 +44,7 @@ body{
 .logoimg{
     height:40vh;
     position:absolute;
-    top:15%;
+    top:35%;
     left:20%;
     border-radius: 25px;
     border: white solid 3px;
@@ -53,10 +54,10 @@ body{
     background: rgba(217, 217, 217, 0.1);
     border-radius: 55px;
     width:45%;
-    height: 200vh;
+    height: 180%;
     position: absolute;
     left: 30%;
-    top: 30%;
+    top: 50%;
     box-shadow: inset -13.85px 13.85px 13.85px 0px rgba(174, 174, 174, 0.4),
       inset -6.93px 6.93px 6.93px 0px rgba(255, 255, 255, 0.4),
       inset 13.85px -13.85px 13.85px 0px rgba(255, 255, 255, 0.4),
@@ -112,14 +113,17 @@ body{
     }
     
     .li>p,.Headcount{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .logoimg{
         height: 35vh;
+        top:30%;
+        left:15%;
     }
     .rectangle-1
     {
-        width: 55%;
+        width: 60%;
+        left:25%;
     }
 }
 @media(max-width:640px)
@@ -138,7 +142,7 @@ body{
             font-size: 0.8rem;
         }
         .control{
-            height: 3vh;
+            height: 4vh;
             border-radius: 4px;
         }
         .logoimg{
@@ -146,14 +150,14 @@ body{
             border-radius: 10px;
             position: absolute;
             left: 10%;
-            top:6%;
+            top:18%;
             border: white solid 1.5px;
          }
          .rectangle-1
          {
             width: 70%;
             left: 18%;
-            top:13%;
+            top:25%;
             height: 70vh;
             border-radius: 30px;
          }
@@ -164,7 +168,7 @@ body{
             left:40%;
          }
          .stu_list{
-            top:15%;
+            top:18%;
             
          }
          .li>p{
@@ -204,14 +208,14 @@ body{
             border-radius: 10px;
             position: absolute;
             left: 10%;
-            top:8%;
+            top:17%;
             border: white solid 1.5px;
          }
          .rectangle-1
          {
             width: 70%;
             left: 18%;
-            top:15%;
+            top:23%;
             height: 100vh;
             border-radius: 30px;
          }
@@ -222,7 +226,7 @@ body{
             left:37%;
          }
          .stu_list{
-            top:17%;
+            top:15%;
             
          }
          .li>p{
@@ -235,9 +239,19 @@ body{
 {
     .rectangle-1{
         width:80%;
+        left:13%;
         
     }
     .Headcount{
         left: 32%;
+    }
+    .logoimg{
+        left:7%;
+    }
+    .Headcount{
+        top:4%;
+    }
+    .stu_list{
+        top:15%;
     }
 }
