@@ -99,10 +99,10 @@ body{
     background-color: white;
 }
 .seri_no{
-    width:14%
+    width:18%
 }
 .reg_no{
-    width: 86%;
+    width: 82%;
 }
 @media(max-width:870px)
 {
@@ -159,7 +159,7 @@ body{
          }
          .Headcount
          {
-            font-size:0.7rem ;
+            font-size:1.2rem ;
             top:2%;
             left:40%;
          }
@@ -185,7 +185,7 @@ body{
        margin: 0%;
        }
         .op{
-            margin-top: 5%;
+            margin-top: 0%;
             
             
         }
@@ -197,7 +197,7 @@ body{
         .control{
             height: 5vh;
             border-radius: 6px;
-            font-size: 0.8rem;
+            font-size: 1rem;
         }
         .logoimg{
             height: 17vh;
@@ -212,24 +212,32 @@ body{
             width: 70%;
             left: 18%;
             top:15%;
-            height: 70vh;
+            height: 100vh;
             border-radius: 30px;
          }
          .Headcount
          {
-            font-size:0.7rem ;
-            
+            font-size:1rem ;
             top:2%;
-            left:43%;
+            left:37%;
          }
          .stu_list{
             top:17%;
             
          }
          .li>p{
-            font-size: 0.5rem;
+            font-size: 1rem;
             border: black solid 0.5px;
          }
 }
 
-
+@media(max-width:330px)
+{
+    .rectangle-1{
+        width:80%;
+        
+    }
+    .Headcount{
+        left: 32%;
+    }
+}
